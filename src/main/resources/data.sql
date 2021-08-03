@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  login VARCHAR(256) NOT NULL
+);
+
+INSERT INTO users (id, login) VALUES (1, 'Test');

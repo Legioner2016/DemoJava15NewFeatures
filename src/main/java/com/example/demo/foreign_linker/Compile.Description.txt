@@ -1,0 +1,2 @@
+gcc -Wall -fPIC -c testlib.c
+gcc -shared -Wl,-soname,libctest.so.1 -o libctest.so.1.0 testlib.o
