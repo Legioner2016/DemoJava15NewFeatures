@@ -1,2 +1,2 @@
 # DemoJava15NewFeatures
-Some Java15/16 new features
+Short review of some Java15/16 new features
